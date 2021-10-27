@@ -155,8 +155,27 @@ O(1)
 
 // Starting Code:
 function squareEveryDigit(number) {
-    
+  return (number + '').split('').map(function(num){return num * num;}).join('')
 }
+console.log(squareEveryDigit(946)) // When running 946, you should see a result of 811636
 
-squareEveryDigit(946) // When running 946, you should see a result of 811636
+
+
+// function squareEveryDigit(number) {
+//     let squaredNumber = Math.pow(number, 2)
+  
+//     }
+// console.log(splitEveryDigit(200))
+// console.log(squareEveryDigit(200))
+
+
+// function splitToDigit(n){
+//     return (n + '').split('').map((i) => { return Number(i); })
+//   }
+
+//   console.log(splitToDigit(100))
+
+
+
+
 
